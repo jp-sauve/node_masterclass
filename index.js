@@ -78,7 +78,6 @@ const unifiedSvr = function (req, res) {
       res.setHeader('Content-Type','application/json')
       res.writeHead(status);
       res.end(payloadStr);
-      console.log("Full Response: ", status, payloadStr);
   
     })
   
